@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>المستقبل الذهبي | مكافحة الحشرات وطرد الحمام</title>
+<title>المستقبل الذهبي | مكافحة الحشرات وطرد الحمام بالمنطقة الشرقية</title>
 
-<meta name="description" content="المستقبل الذهبي لمكافحة الحشرات وطرد الحمام بالمنطقة الشرقية. الدمام والخبر والظهران والقطيف والجبيل والأحساء. واتساب واتصال 0549095575">
+<meta name="description" content="المستقبل الذهبي لمكافحة الحشرات وطرد الحمام بالمنطقة الشرقية. مكافحة الصراصير والنمل وبق الفراش والبعوض وطرد الحمام في الدمام والخبر والظهران والقطيف والجبيل والأحساء. اتصل 0549095575">
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
 
 :root{
 --green:#0b3d2c;
 --green2:#176347;
 --gold:#f4c653;
---white:#fff;
+--white:#ffffff;
 --gray:#687771;
 }
 
@@ -27,21 +36,27 @@ color:#1d3029;
 line-height:1.8;
 }
 
-a{text-decoration:none}
-img{width:100%;display:block}
+a{
+text-decoration:none;
+}
+
+img{
+display:block;
+width:100%;
+}
 
 .container{
 width:min(1150px,92%);
 margin:auto;
 }
 
-/* HEADER */
+/* ================= HEADER ================= */
 
 header{
 position:sticky;
 top:0;
 z-index:9999;
-background:var(--green);
+background:#0b3d2c;
 box-shadow:0 5px 20px rgba(0,0,0,.17);
 }
 
@@ -68,7 +83,7 @@ color:#fff;
 font-weight:bold;
 }
 
-/* HERO */
+/* ================= HERO ================= */
 
 .hero{
 min-height:680px;
@@ -82,10 +97,10 @@ linear-gradient(135deg,#082d21,#0b4934);
 
 .hero-grid{
 display:grid;
-grid-template-columns:1.1fr .9fr;
+grid-template-columns:1.05fr .95fr;
 gap:45px;
 align-items:center;
-padding:85px 0;
+padding:80px 0;
 }
 
 .badge{
@@ -98,12 +113,14 @@ font-weight:900;
 }
 
 .hero h1{
-font-size:52px;
+font-size:50px;
 line-height:1.3;
 margin:18px 0;
 }
 
-.hero h1 span{color:var(--gold)}
+.hero h1 span{
+color:var(--gold);
+}
 
 .hero p{
 font-size:19px;
@@ -142,50 +159,63 @@ font-size:17px;
 font-weight:900;
 }
 
-.whatsapp{background:#25d366;color:#fff}
-.call{background:var(--gold);color:var(--green)}
-
-/* HERO REAL PHOTO */
-
-.hero-art{
-height:440px;
-border-radius:30px;
-overflow:hidden;
-position:relative;
-box-shadow:0 20px 45px rgba(0,0,0,.3);
+.whatsapp{
+background:#25d366;
+color:#fff;
 }
 
-.hero-art img{
+.call{
+background:var(--gold);
+color:var(--green);
+}
+
+/* HERO IMAGE */
+
+.hero-photo{
+height:450px;
+position:relative;
+border-radius:30px;
+overflow:hidden;
+background:#164f3c;
+box-shadow:0 20px 50px rgba(0,0,0,.30);
+}
+
+.hero-photo img{
 width:100%;
 height:100%;
 object-fit:cover;
 }
 
-.hero-art:after{
+.hero-photo:after{
 content:"";
 position:absolute;
 inset:0;
-background:linear-gradient(to top,rgba(4,35,25,.55),transparent 60%);
+background:linear-gradient(to top,rgba(5,40,28,.65),transparent 60%);
 }
 
-.bubble{
+.hero-overlay{
 position:absolute;
 z-index:3;
-background:#fff;
-color:var(--green);
-padding:8px 14px;
-border-radius:25px;
-font-weight:900;
-box-shadow:0 8px 22px rgba(0,0,0,.2);
+right:18px;
+left:18px;
+bottom:18px;
+background:rgba(7,44,31,.93);
+padding:16px;
+border-radius:15px;
+text-align:center;
 }
 
-.b1{top:25px;right:20px}
-.b2{left:15px;top:100px}
-.b3{bottom:30px;left:25px}
+.hero-overlay strong{
+display:block;
+font-size:21px;
+color:var(--gold);
+}
 
-/* SECTIONS */
+/* ================= TITLES ================= */
 
-section{padding:80px 0}
+section{
+padding:80px 0;
+}
 
 .title{
 max-width:760px;
@@ -204,11 +234,15 @@ font-size:37px;
 margin:7px 0;
 }
 
-.title p{color:var(--gray)}
+.title p{
+color:var(--gray);
+}
 
-/* REAL PHOTOS */
+/* ================= REAL PHOTOS ================= */
 
-.real{background:#fff}
+.real{
+background:#fff;
+}
 
 .photo-grid{
 display:grid;
@@ -221,7 +255,8 @@ position:relative;
 height:380px;
 border-radius:22px;
 overflow:hidden;
-box-shadow:0 15px 40px rgba(0,0,0,.12);
+background:#dfe9e4;
+box-shadow:0 15px 40px rgba(0,0,0,.13);
 }
 
 .real-card img{
@@ -237,32 +272,36 @@ transform:scale(1.05);
 
 .real-overlay{
 position:absolute;
-bottom:14px;
-left:14px;
 right:14px;
+left:14px;
+bottom:14px;
 padding:16px;
 border-radius:14px;
-background:linear-gradient(135deg,rgba(7,44,31,.96),rgba(16,76,54,.88));
+background:linear-gradient(
+135deg,
+rgba(7,44,31,.97),
+rgba(16,76,54,.91)
+);
 color:#fff;
 }
 
 .real-overlay strong{
 display:block;
 color:var(--gold);
-font-size:20px;
+font-size:21px;
 }
 
 .phone-badge{
 display:inline-block;
 margin-top:7px;
-padding:5px 11px;
+padding:5px 12px;
 background:var(--gold);
 color:var(--green);
 border-radius:30px;
 font-weight:900;
 }
 
-/* SERVICES */
+/* ================= SERVICES ================= */
 
 .services{
 display:grid;
@@ -275,11 +314,19 @@ background:#fff;
 border-radius:20px;
 overflow:hidden;
 box-shadow:0 12px 35px rgba(15,61,44,.09);
+transition:.3s;
+}
+
+.service:hover{
+transform:translateY(-5px);
+box-shadow:0 18px 40px rgba(15,61,44,.15);
 }
 
 .service-top{
-height:190px;
-background:linear-gradient(135deg,#0e4b36,#092f23);
+height:175px;
+background:
+radial-gradient(circle at 30% 20%,rgba(244,198,83,.25),transparent 25%),
+linear-gradient(135deg,#0e4b36,#092f23);
 display:flex;
 align-items:center;
 justify-content:center;
@@ -293,11 +340,13 @@ background:#fff;
 display:flex;
 align-items:center;
 justify-content:center;
-font-size:56px;
+font-size:55px;
 box-shadow:0 10px 28px rgba(0,0,0,.22);
 }
 
-.service-body{padding:23px}
+.service-body{
+padding:23px;
+}
 
 .service-body h3{
 color:var(--green);
@@ -305,7 +354,9 @@ font-size:22px;
 margin-bottom:7px;
 }
 
-.service-body p{color:var(--gray)}
+.service-body p{
+color:var(--gray);
+}
 
 .order{
 display:inline-block;
@@ -314,15 +365,20 @@ margin-top:12px;
 font-weight:900;
 }
 
-/* WHY */
+/* ================= WHY ================= */
 
 .why{
 background:linear-gradient(135deg,#0b3d2c,#06271d);
 color:#fff;
 }
 
-.why .title h2{color:#fff}
-.why .title p{color:#d8e4df}
+.why .title h2{
+color:#fff;
+}
+
+.why .title p{
+color:#d8e4df;
+}
 
 .why-grid{
 display:grid;
@@ -338,16 +394,20 @@ background:rgba(255,255,255,.08);
 border:1px solid rgba(255,255,255,.11);
 }
 
-.why-card .icon{font-size:40px}
+.why-card .icon{
+font-size:40px;
+}
 
 .why-card h3{
 color:var(--gold);
 margin:8px 0;
 }
 
-/* PIGEON */
+/* ================= PIGEON ================= */
 
-.pigeon{background:#fffaf0}
+.pigeon{
+background:#fffaf0;
+}
 
 .pigeon-box{
 display:grid;
@@ -362,13 +422,14 @@ box-shadow:0 15px 40px rgba(0,0,0,.1);
 
 .pigeon-photo{
 position:relative;
-min-height:450px;
+min-height:470px;
+background:#e8ecea;
 }
 
 .pigeon-photo img{
 width:100%;
 height:100%;
-min-height:450px;
+min-height:470px;
 object-fit:cover;
 }
 
@@ -377,9 +438,9 @@ position:absolute;
 right:15px;
 left:15px;
 bottom:15px;
-background:rgba(11,61,44,.94);
+background:rgba(11,61,44,.95);
 color:#fff;
-padding:14px;
+padding:15px;
 border-radius:13px;
 }
 
@@ -388,7 +449,9 @@ color:var(--gold);
 font-size:20px;
 }
 
-.pigeon-info{padding:42px}
+.pigeon-info{
+padding:42px;
+}
 
 .pigeon-info h2{
 color:var(--green);
@@ -400,7 +463,9 @@ list-style:none;
 margin:20px 0;
 }
 
-.checks li{margin:8px 0}
+.checks li{
+margin:8px 0;
+}
 
 .checks li:before{
 content:"✓";
@@ -409,7 +474,7 @@ font-weight:900;
 margin-left:8px;
 }
 
-/* AREAS */
+/* ================= AREAS ================= */
 
 .areas{
 display:flex;
@@ -426,9 +491,11 @@ padding:10px 20px;
 font-weight:900;
 }
 
-/* FAQ */
+/* ================= FAQ ================= */
 
-.faq-section{background:#edf5f1}
+.faq-section{
+background:#edf5f1;
+}
 
 .faq{
 max-width:850px;
@@ -454,7 +521,7 @@ color:var(--gray);
 margin-top:8px;
 }
 
-/* CTA */
+/* ================= CTA ================= */
 
 .cta{
 background:var(--green);
@@ -467,15 +534,17 @@ color:var(--gold);
 font-size:39px;
 }
 
-.cta .buttons{justify-content:center}
+.cta .buttons{
+justify-content:center;
+}
 
-/* FOOTER */
+/* ================= FOOTER ================= */
 
 footer{
 background:#061f17;
 color:#d5e2dd;
 text-align:center;
-padding:38px 20px 100px;
+padding:38px 20px 105px;
 }
 
 footer h3{
@@ -489,7 +558,7 @@ font-size:21px;
 font-weight:900;
 }
 
-/* FLOAT */
+/* ================= FLOAT ================= */
 
 .float{
 position:fixed;
@@ -512,69 +581,126 @@ font-weight:900;
 box-shadow:0 8px 24px rgba(0,0,0,.22);
 }
 
-/* MOBILE */
+/* ================= MOBILE ================= */
 
 @media(max-width:900px){
 
-.menu{display:none}
+.menu{
+display:none;
+}
 
-.hero-grid{grid-template-columns:1fr}
+.hero-grid{
+grid-template-columns:1fr;
+}
 
-.hero-content{text-align:center}
+.hero-content{
+text-align:center;
+}
 
-.hero h1{font-size:37px}
+.hero h1{
+font-size:37px;
+}
 
-.hero-points,.buttons{justify-content:center}
+.hero-points,
+.buttons{
+justify-content:center;
+}
 
-.hero-art{height:350px}
+.hero-photo{
+height:370px;
+}
 
-.photo-grid{grid-template-columns:1fr}
+.photo-grid{
+grid-template-columns:1fr;
+}
 
-.services{grid-template-columns:1fr}
+.services{
+grid-template-columns:1fr;
+}
 
-.why-grid{grid-template-columns:1fr 1fr}
+.why-grid{
+grid-template-columns:1fr 1fr;
+}
 
-.pigeon-box{grid-template-columns:1fr}
+.pigeon-box{
+grid-template-columns:1fr;
+}
 
 }
 
 @media(max-width:520px){
 
-.brand{font-size:20px}
+.brand{
+font-size:20px;
+}
 
-.hero h1{font-size:31px}
+.hero{
+min-height:auto;
+}
 
-.title h2{font-size:29px}
+.hero-grid{
+padding:55px 0;
+}
 
-.why-grid{grid-template-columns:1fr}
+.hero h1{
+font-size:31px;
+}
 
-.btn{width:100%}
+.title h2{
+font-size:29px;
+}
 
-.real-card{height:330px}
+.hero-photo{
+height:320px;
+}
+
+.real-card{
+height:340px;
+}
+
+.why-grid{
+grid-template-columns:1fr;
+}
+
+.btn{
+width:100%;
+}
+
+.pigeon-info{
+padding:28px 22px;
+}
 
 }
+
 </style>
+
 </head>
 
 <body>
 
+<!-- HEADER -->
+
 <header>
+
 <div class="container nav">
 
 <div class="brand">
 🛡️ المستقبل الذهبي
 </div>
 
-<div class="menu">
+<nav class="menu">
 <a href="#photos">صور الخدمة</a>
 <a href="#services">الخدمات</a>
 <a href="#pigeon">طرد الحمام</a>
 <a href="#areas">المناطق</a>
-</div>
+</nav>
 
 </div>
+
 </header>
 
+
+<!-- HERO -->
 
 <div class="hero">
 
@@ -587,66 +713,97 @@ box-shadow:0 8px 24px rgba(0,0,0,.22);
 </div>
 
 <h1>
-خلي بيتك أكثر راحة مع
+مكافحة الحشرات
+وطرد الحمام مع
 <span>المستقبل الذهبي</span>
 </h1>
 
 <p>
-خدمات مكافحة الحشرات وطرد الحمام للمنازل والفلل والشقق والمنشآت.
-تواصل معنا مباشرة وحدد نوع المشكلة والمنطقة.
+خدمات مكافحة الحشرات وطرد الحمام للمنازل والفلل
+والشقق والمنشآت في المنطقة الشرقية.
 </p>
 
 <div class="hero-points">
+
 <span>✓ الصراصير</span>
 <span>✓ النمل</span>
 <span>✓ بق الفراش</span>
 <span>✓ البعوض</span>
 <span>✓ طرد الحمام</span>
+
 </div>
 
 <div class="buttons">
 
-<a class="btn whatsapp"
+<a
+class="btn whatsapp"
 href="https://wa.me/966549095575?text=السلام%20عليكم%20أرغب%20في%20طلب%20خدمة%20مكافحة%20الحشرات">
 💬 واتساب
 </a>
 
-<a class="btn call" href="tel:0549095575">
+<a
+class="btn call"
+href="tel:+966549095575">
 📞 0549095575
 </a>
 
 </div>
+
 </div>
 
 
-<div class="hero-art">
+<!-- صورة كبيرة -->
+
+<div class="hero-photo">
 
 <img
 src="https://www.spotonpestcontrol.com/wp-content/uploads/2025/10/pest-control-huntington-tx-technician-safely-treating-exterior-of-a-home-1024x683.jpg"
 alt="فني مكافحة الحشرات">
 
-<div class="bubble b1">🪳 مكافحة الحشرات</div>
-<div class="bubble b2">🏠 منازل وفلل</div>
-<div class="bubble b3">📞 0549095575</div>
+<div class="hero-overlay">
+
+<strong>
+🛡️ مكافحة الحشرات للمنازل والفلل
+</strong>
+
+📞 0549095575
 
 </div>
 
 </div>
+
 </div>
 
+</div>
+
+
+<!-- PHOTOS -->
 
 <section class="real" id="photos">
 
 <div class="container">
 
 <div class="title">
-<small>صور واقعية للخدمة</small>
-<h2>مكافحة الحشرات وطرد الحمام</h2>
-<p>خدمات للمنازل والفلل والمنشآت في المنطقة الشرقية.</p>
+
+<small>
+صور الخدمات
+</small>
+
+<h2>
+صور واقعية لمكافحة الحشرات وطرد الحمام
+</h2>
+
+<p>
+خدمات للمنازل والفلل والمنشآت بالمنطقة الشرقية.
+</p>
+
 </div>
 
 
 <div class="photo-grid">
+
+
+<!-- صورة 1 -->
 
 <div class="real-card">
 
@@ -656,177 +813,334 @@ alt="فني مكافحة الحشرات"
 loading="lazy">
 
 <div class="real-overlay">
-<strong>🛡️ مكافحة الحشرات</strong>
-<span>فني مكافحة حشرات أثناء معالجة المنزل</span>
-<div class="phone-badge">📞 0549095575</div>
+
+<strong>
+🛡️ مكافحة الحشرات
+</strong>
+
+<span>
+خدمات مكافحة الحشرات للمنازل والفلل
+</span>
+
+<div class="phone-badge">
+📞 0549095575
 </div>
 
 </div>
 
+</div>
+
+
+<!-- صورة 2 -->
 
 <div class="real-card">
 
 <img
-src="https://www.onepestsolution.com.au/wp-content/uploads/pest-control-technician.jpg"
-alt="فني رش مكافحة الحشرات"
-loading="lazy"
-onerror="this.src='https://www.spotonpestcontrol.com/wp-content/uploads/2025/10/pest-control-huntington-tx-technician-safely-treating-exterior-of-a-home-1024x683.jpg'">
-
-<div class="real-overlay">
-<strong>🪳 مكافحة الصراصير والحشرات</strong>
-<span>خدمات مكافحة الحشرات للمنازل والفلل</span>
-<div class="phone-badge">📞 0549095575</div>
-</div>
-
-</div>
-
-
-<div class="real-card">
-
-<img
-src="https://www.clean-easy-berlin.de/images/taubenabwehr-hero.jpg"
-alt="فني تركيب طارد الحمام"
+src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=85"
+alt="خدمات المنازل"
 loading="lazy">
 
 <div class="real-overlay">
-<strong>🐦 تركيب طارد الحمام</strong>
-<span>تركيب وسائل منع وقوف الحمام على المباني</span>
-<div class="phone-badge">📞 0549095575</div>
+
+<strong>
+🪳 مكافحة الصراصير والحشرات
+</strong>
+
+<span>
+خدمات للمنازل والشقق والمنشآت
+</span>
+
+<div class="phone-badge">
+📞 0549095575
 </div>
 
 </div>
 
+</div>
+
+
+<!-- صورة 3 طارد الحمام -->
+
+<div class="real-card">
+
+<img
+src="https://integrumservices.co.uk/app/uploads/sites/2/2023/01/pigeon-spikes-in-guttering-768x1024.jpeg"
+alt="أشواك طارد الحمام"
+loading="lazy">
+
+<div class="real-overlay">
+
+<strong>
+🐦 طارد الحمام
+</strong>
+
+<span>
+أشواك للحد من وقوف الحمام على المباني
+</span>
+
+<div class="phone-badge">
+📞 0549095575
+</div>
+
+</div>
+
+</div>
+
+
+<!-- صورة 4 -->
 
 <div class="real-card">
 
 <img
 src="https://www.bird-spikes.net/uploads/201810897/stainless-steel-bird-spikes49464534281.jpg"
-alt="أشواك طارد الحمام"
+alt="تركيب طارد الحمام"
 loading="lazy">
 
 <div class="real-overlay">
-<strong>🏠 حماية المباني من الحمام</strong>
-<span>طارد الحمام للأسطح والحواف والنوافذ</span>
-<div class="phone-badge">📞 0549095575</div>
+
+<strong>
+🏠 حماية الأسطح من الحمام
+</strong>
+
+<span>
+حلول للأسطح والحواف والنوافذ
+</span>
+
+<div class="phone-badge">
+📞 0549095575
 </div>
 
 </div>
 
 </div>
+
+
 </div>
+
+</div>
+
 </section>
 
+
+<!-- SERVICES -->
 
 <section id="services">
 
 <div class="container">
 
 <div class="title">
-<small>خدماتنا</small>
-<h2>خدمات مكافحة الحشرات</h2>
-<p>اختاري الخدمة المناسبة وتواصلي مباشرة عبر واتساب.</p>
+
+<small>
+خدماتنا
+</small>
+
+<h2>
+خدمات مكافحة الحشرات
+</h2>
+
+<p>
+حدد نوع المشكلة وتواصل معنا مباشرة عبر واتساب.
+</p>
+
 </div>
 
 
 <div class="services">
 
+
 <div class="service">
+
 <div class="service-top">
 <div class="service-icon">🪳</div>
 </div>
+
 <div class="service-body">
-<h3>مكافحة الصراصير</h3>
-<p>مكافحة الصراصير داخل المطابخ والحمامات ومختلف أجزاء المنزل.</p>
-<a class="order" href="https://wa.me/966549095575?text=أرغب%20في%20مكافحة%20الصراصير">
+
+<h3>
+مكافحة الصراصير
+</h3>
+
+<p>
+خدمات لمكافحة الصراصير داخل المطابخ والحمامات
+ومختلف أجزاء المنزل.
+</p>
+
+<a
+class="order"
+href="https://wa.me/966549095575?text=أرغب%20في%20مكافحة%20الصراصير">
 اطلب الخدمة ←
 </a>
+
 </div>
+
 </div>
 
 
 <div class="service">
+
 <div class="service-top">
 <div class="service-icon">🐜</div>
 </div>
+
 <div class="service-body">
-<h3>مكافحة النمل</h3>
-<p>خدمة مكافحة النمل في المنازل والشقق والفلل والمنشآت.</p>
-<a class="order" href="https://wa.me/966549095575?text=أرغب%20في%20مكافحة%20النمل">
+
+<h3>
+مكافحة النمل
+</h3>
+
+<p>
+خدمات مكافحة النمل للمنازل والشقق والفلل والمنشآت.
+</p>
+
+<a
+class="order"
+href="https://wa.me/966549095575?text=أرغب%20في%20مكافحة%20النمل">
 اطلب الخدمة ←
 </a>
+
 </div>
+
 </div>
 
 
 <div class="service">
+
 <div class="service-top">
 <div class="service-icon">🛏️</div>
 </div>
+
 <div class="service-body">
-<h3>مكافحة بق الفراش</h3>
-<p>خدمة لغرف النوم والأثاث والأماكن التي تظهر بها المشكلة.</p>
-<a class="order" href="https://wa.me/966549095575?text=أرغب%20في%20مكافحة%20بق%20الفراش">
+
+<h3>
+مكافحة بق الفراش
+</h3>
+
+<p>
+خدمات مكافحة بق الفراش في غرف النوم والأثاث.
+</p>
+
+<a
+class="order"
+href="https://wa.me/966549095575?text=أرغب%20في%20مكافحة%20بق%20الفراش">
 اطلب الخدمة ←
 </a>
+
 </div>
+
 </div>
 
 
 <div class="service">
+
 <div class="service-top">
 <div class="service-icon">🦟</div>
 </div>
+
 <div class="service-body">
-<h3>مكافحة البعوض</h3>
-<p>مكافحة الحشرات الطائرة في المنازل والفلل والاستراحات.</p>
-<a class="order" href="https://wa.me/966549095575?text=أرغب%20في%20مكافحة%20البعوض">
+
+<h3>
+مكافحة البعوض
+</h3>
+
+<p>
+خدمات مكافحة البعوض والحشرات الطائرة
+للمنازل والفلل والاستراحات.
+</p>
+
+<a
+class="order"
+href="https://wa.me/966549095575?text=أرغب%20في%20مكافحة%20البعوض">
 اطلب الخدمة ←
 </a>
+
 </div>
+
 </div>
 
 
 <div class="service">
+
 <div class="service-top">
 <div class="service-icon">🪰</div>
 </div>
+
 <div class="service-body">
-<h3>الحشرات الطائرة</h3>
-<p>خدمات لمشكلة الذباب وأنواع مختلفة من الحشرات الطائرة.</p>
-<a class="order" href="https://wa.me/966549095575?text=أرغب%20في%20مكافحة%20الحشرات">
+
+<h3>
+مكافحة الذباب
+</h3>
+
+<p>
+حلول لمشكلة الذباب والحشرات الطائرة.
+</p>
+
+<a
+class="order"
+href="https://wa.me/966549095575?text=أرغب%20في%20مكافحة%20الذباب">
 اطلب الخدمة ←
 </a>
+
 </div>
+
 </div>
 
 
 <div class="service">
+
 <div class="service-top">
 <div class="service-icon">🐦</div>
 </div>
+
 <div class="service-body">
-<h3>طرد الحمام</h3>
-<p>حلول للحد من وقوف وتجمع الحمام على الأسطح والحواف والمباني.</p>
-<a class="order" href="https://wa.me/966549095575?text=أرغب%20في%20خدمة%20طرد%20الحمام">
+
+<h3>
+طرد الحمام
+</h3>
+
+<p>
+حلول للحد من وقوف وتجمع الحمام على الأسطح والحواف.
+</p>
+
+<a
+class="order"
+href="https://wa.me/966549095575?text=أرغب%20في%20خدمة%20طرد%20الحمام">
 اطلب الخدمة ←
 </a>
-</div>
+
 </div>
 
 </div>
+
+
 </div>
+
+</div>
+
 </section>
 
+
+<!-- WHY -->
 
 <section class="why">
 
 <div class="container">
 
 <div class="title">
-<small>المستقبل الذهبي</small>
-<h2>خدمات سهلة وسريعة</h2>
-<p>تواصل معنا وحدد نوع المشكلة والمنطقة.</p>
+
+<small>
+المستقبل الذهبي
+</small>
+
+<h2>
+خدمات سهلة وسريعة
+</h2>
+
+<p>
+تواصل معنا وحدد نوع المشكلة والمنطقة.
+</p>
+
 </div>
+
 
 <div class="why-grid">
 
@@ -851,13 +1165,17 @@ loading="lazy">
 <div class="why-card">
 <div class="icon">📍</div>
 <h3>المنطقة الشرقية</h3>
-<p>عدة مدن ومحافظات.</p>
+<p>نخدم عدة مدن ومحافظات.</p>
 </div>
 
 </div>
+
 </div>
+
 </section>
 
+
+<!-- PIGEON -->
 
 <section class="pigeon" id="pigeon">
 
@@ -865,20 +1183,29 @@ loading="lazy">
 
 <div class="pigeon-box">
 
+
 <div class="pigeon-photo">
 
 <img
-src="https://www.clean-easy-berlin.de/images/taubenabwehr-hero.jpg"
-alt="فني تركيب طارد الحمام"
+src="https://integrumservices.co.uk/app/uploads/sites/2/2023/01/pigeon-spikes-in-guttering-768x1024.jpeg"
+alt="طارد الحمام وأشواك منع وقوف الحمام"
 loading="lazy">
 
 <div class="pigeon-label">
 
-<strong>🐦 طرد الحمام</strong>
+<strong>
+🐦 خدمة طرد الحمام
+</strong>
+
 <br>
-تركيب حلول لمنع وقوف الحمام على الأسطح والحواف
+
+حلول للأسطح والحواف والنوافذ
+
 <br>
-<strong>📞 0549095575</strong>
+
+<strong>
+📞 0549095575
+</strong>
 
 </div>
 
@@ -887,93 +1214,175 @@ loading="lazy">
 
 <div class="pigeon-info">
 
-<h2>خدمة طرد الحمام</h2>
+<h2>
+طرد الحمام وحماية المباني
+</h2>
 
 <p>
-إذا كنت تعاني من تجمع الحمام على الأسطح أو الحواف أو النوافذ
-تواصل مع المستقبل الذهبي للاستفسار عن خدمة طرد الحمام.
+إذا كنت تعاني من تجمع الحمام على الأسطح
+أو النوافذ أو حواف المبنى،
+تواصل معنا للاستفسار عن الخدمة المناسبة.
 </p>
 
 <ul class="checks">
+
 <li>طارد الحمام للأسطح</li>
-<li>حماية الحواف والنوافذ</li>
+<li>حماية حواف المباني</li>
+<li>حلول للنوافذ</li>
 <li>خدمة للمنازل والفلل</li>
 <li>خدمة للمنشآت</li>
+
 </ul>
 
 <div class="buttons">
 
-<a class="btn whatsapp"
+<a
+class="btn whatsapp"
 href="https://wa.me/966549095575?text=السلام%20عليكم%20أرغب%20في%20خدمة%20طرد%20الحمام">
 💬 اطلب خدمة طرد الحمام
 </a>
 
 </div>
+
 </div>
 
 </div>
+
 </div>
+
 </section>
 
+
+<!-- AREAS -->
 
 <section id="areas">
 
 <div class="container">
 
 <div class="title">
-<small>مناطق الخدمة</small>
-<h2>نخدم المنطقة الشرقية</h2>
+
+<small>
+مناطق الخدمة
+</small>
+
+<h2>
+نخدم المنطقة الشرقية
+</h2>
+
+<p>
+مكافحة الحشرات وطرد الحمام في عدة مدن ومحافظات.
+</p>
+
 </div>
 
 <div class="areas">
+
 <div class="area">📍 الدمام</div>
 <div class="area">📍 الخبر</div>
 <div class="area">📍 الظهران</div>
 <div class="area">📍 القطيف</div>
 <div class="area">📍 الجبيل</div>
 <div class="area">📍 الأحساء</div>
+
 </div>
 
 </div>
+
 </section>
 
+
+<!-- FAQ -->
 
 <section class="faq-section">
 
 <div class="container">
 
 <div class="title">
-<small>الأسئلة الشائعة</small>
-<h2>كيف تطلب الخدمة؟</h2>
+
+<small>
+الأسئلة الشائعة
+</small>
+
+<h2>
+طلب خدمة مكافحة الحشرات
+</h2>
+
 </div>
 
 <div class="faq">
 
-<details>
-<summary>هل أقدر أرسل صورة للحشرة؟</summary>
-<p>نعم، أرسل صورة للمشكلة والمنطقة على واتساب.</p>
-</details>
 
 <details>
-<summary>هل لديكم خدمة طرد الحمام؟</summary>
-<p>نعم، تواصل معنا للاستفسار عن خدمة طرد الحمام.</p>
+
+<summary>
+هل يمكن إرسال صورة للحشرة؟
+</summary>
+
+<p>
+نعم، يمكنك إرسال صورة للمشكلة مع اسم المنطقة على واتساب.
+</p>
+
 </details>
 
+
 <details>
-<summary>ما رقم الشركة؟</summary>
-<p>واتساب واتصال: <strong>0549095575</strong></p>
+
+<summary>
+هل لديكم خدمة طرد الحمام؟
+</summary>
+
+<p>
+نعم، يمكنك التواصل معنا للاستفسار عن حلول طرد الحمام
+للأسطح والحواف والنوافذ.
+</p>
+
 </details>
+
+
+<details>
+
+<summary>
+ما رقم المستقبل الذهبي؟
+</summary>
+
+<p>
+للاتصال أو واتساب:
+<strong>0549095575</strong>
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+ما مناطق الخدمة؟
+</summary>
+
+<p>
+الدمام والخبر والظهران والقطيف والجبيل والأحساء
+ومناطق أخرى بالمنطقة الشرقية حسب توفر الخدمة.
+</p>
+
+</details>
+
 
 </div>
+
 </div>
+
 </section>
 
+
+<!-- CTA -->
 
 <section class="cta">
 
 <div class="container">
 
-<h2>عندك مشكلة حشرات أو حمام؟</h2>
+<h2>
+عندك مشكلة حشرات أو حمام؟
+</h2>
 
 <p>
 تواصل مع المستقبل الذهبي وحدد نوع المشكلة والمنطقة.
@@ -981,25 +1390,36 @@ href="https://wa.me/966549095575?text=السلام%20عليكم%20أرغب%20ف�
 
 <div class="buttons">
 
-<a class="btn whatsapp"
+<a
+class="btn whatsapp"
 href="https://wa.me/966549095575?text=السلام%20عليكم%20أرغب%20في%20طلب%20خدمة">
 💬 واتساب
 </a>
 
-<a class="btn call" href="tel:0549095575">
+<a
+class="btn call"
+href="tel:+966549095575">
 📞 0549095575
 </a>
 
 </div>
+
 </div>
+
 </section>
 
 
+<!-- FOOTER -->
+
 <footer>
 
-<h3>🛡️ المستقبل الذهبي</h3>
+<h3>
+🛡️ المستقبل الذهبي
+</h3>
 
-<p>مكافحة الحشرات وطرد الحمام بالمنطقة الشرقية</p>
+<p>
+مكافحة الحشرات وطرد الحمام بالمنطقة الشرقية
+</p>
 
 <p>
 الدمام • الخبر • الظهران • القطيف • الجبيل • الأحساء
@@ -1012,18 +1432,24 @@ href="https://wa.me/966549095575?text=السلام%20عليكم%20أرغب%20ف�
 </footer>
 
 
+<!-- FLOAT BUTTONS -->
+
 <div class="float">
 
-<a class="whatsapp"
+<a
+class="whatsapp"
 href="https://wa.me/966549095575?text=السلام%20عليكم%20أرغب%20في%20طلب%20خدمة">
 💬 واتساب
 </a>
 
-<a class="call" href="tel:0549095575">
+<a
+class="call"
+href="tel:+966549095575">
 📞 اتصال
 </a>
 
 </div>
+
 
 </body>
 </html>
